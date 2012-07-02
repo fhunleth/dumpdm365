@@ -764,6 +764,18 @@ static struct Dm365Register registers[] =
     {0x1C0060C, "EDMACC", "QSTAT3", "Queue 3 Status Register"},
     {0x1C00620, "EDMACC", "QWMTHRA", "Queue Watermark Threshold A Register"},
     {0x1C00640, "EDMACC", "CCSTAT", "EDMA3CC Status Register"},
+    {0x20000004, "DDR2", "SDRSTAT", "SDRSTAT Status Register"},
+    {0x20000008, "DDR2", "SDCR", "SDRAM Configuration Register"},
+    {0x2000000C, "DDR2", "SDRCR", "SDRAM Refresh Control Register"},
+    {0x20000010, "DDR2", "SDTIMR", "SDRAM Timing Register"},
+    {0x20000014, "DDR2", "SDTIMR2", "SDRAM Timing Register 2"},
+    {0x2000001C, "DDR2", "SDCR2", "SDRAM Configuration Register 2"},
+    {0x20000020, "DDR2", "PBBPR", "Peripheral Bus Burst Priority Register"},
+    {0x200000C0, "DDR2", "IRR", "Interrupt Raw Register"},
+    {0x200000C4, "DDR2", "IMR", "Interrupt Masked Register"},
+    {0x200000C8, "DDR2", "IMSR", "Interrupt Mask Set Register"},
+    {0x200000CC, "DDR2", "IMCR", "Interrupt Mask Clear Register"},
+    {0x200000E4, "DDR2", "DDRPHYCR1", "DDR PHY Control Register 1"},
 
   };
 #define NUM_REGISTERS (sizeof(registers) / sizeof(registers[0]))
