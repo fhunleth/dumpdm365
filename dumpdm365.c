@@ -819,6 +819,19 @@ static struct Dm365Register registers[] =
     {0x200000C8, "DDR2", "IMSR", "Interrupt Mask Set Register"},
     {0x200000CC, "DDR2", "IMCR", "Interrupt Mask Clear Register"},
     {0x200000E4, "DDR2", "DDRPHYCR1", "DDR PHY Control Register 1"},
+    {0x01C23C00, "ADC", "ADCTL", "Control register"},
+    {0x01C23C04, "ADC", "CMPTGT", "Comparator target channel"},
+    {0x01C23C08, "ADC", "CMPLDAT", "Comparison A/D Lower data"},
+    {0x01C23C0C, "ADC", "CMPUDAT", "Comparison A/D Upper data"},
+    {0x01C23C10, "ADC", "SETDIV", "SETUP divide value for start A/D conversion"},
+    {0x01C23C14, "ADC", "CHSEL", "Analog Input channel select"},
+    {0x01C23C18, "ADC", "AD0DAT", "A/D conversion data 0"},
+    {0x01C23C1C, "ADC", "AD1DAT", "A/D conversion data 1"},
+    {0x01C23C20, "ADC", "AD2DAT", "A/D conversion data 2"},
+    {0x01C23C24, "ADC", "AD3DAT", "A/D conversion data 3"},
+    {0x01C23C28, "ADC", "AD4DAT", "A/D conversion data 4"},
+    {0x01C23C2C, "ADC", "AD5DAT", "A/D conversion data 5"},
+    {0x01C23C30, "ADC", "EMUCTRL", "Emulation Control"},
 
   };
 #define NUM_REGISTERS (sizeof(registers) / sizeof(registers[0]))
