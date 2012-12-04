@@ -833,6 +833,7 @@ static struct Dm365Register registers[] =
     {0x01C23C2C, "ADC", "AD5DAT", "A/D conversion data 5"},
     {0x01C23C30, "ADC", "EMUCTRL", "Emulation Control"},
 
+    {0x01C6440F, "USB", "TESTMODE", "USB 2.0 TestModes"},
   };
 #define NUM_REGISTERS (sizeof(registers) / sizeof(registers[0]))
  
