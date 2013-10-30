@@ -834,6 +834,33 @@ static struct Dm365Register registers[] =
     {0x01C23C30, "ADC", "EMUCTRL", "Emulation Control"},
 
     {0x01C6440F, "USB", "TESTMODE", "USB 2.0 TestModes"},
+
+    {0x01D11000, "MMCSD0", "MMCCTL", "MMC Control Register"},
+    {0x01D11004, "MMCSD0", "MMCCLK", "MMC Memory Clock Control Register"},
+    {0x01D11008, "MMCSD0", "MMCST0", "MMC Status Register 0"},
+    {0x01D1100C, "MMCSD0", "MMCST1", "MMC Status Register 1"},
+    {0x01D11010, "MMCSD0", "MMCIM", ""},
+    {0x01D11014, "MMCSD0", "MMCTOR", ""},
+    {0x01D11018, "MMCSD0", "MMCTOD", ""},
+    {0x01D1101C, "MMCSD0", "MMCBLEN", ""},
+    {0x01D11020, "MMCSD0", "MMCNBLK", ""},
+    {0x01D11024, "MMCSD0", "MMCNBLC", ""},
+    {0x01D11028, "MMCSD0", "MMCDRR", ""},
+    {0x01D1102C, "MMCSD0", "MMCDXR", ""},
+    {0x01D11030, "MMCSD0", "MMCCMD", ""},
+    {0x01D11034, "MMCSD0", "MMCARGHL", ""},
+    {0x01D11038, "MMCSD0", "MMCRSP01", ""},
+    {0x01D1103C, "MMCSD0", "MMCRSP23", ""},
+    {0x01D11040, "MMCSD0", "MMCRSP45", ""},
+    {0x01D11044, "MMCSD0", "MMCRSP67", ""},
+    {0x01D11048, "MMCSD0", "MMCDRSP", ""},
+    {0x01D11050, "MMCSD0", "MMCCIDX", ""},
+    {0x01D11064, "MMCSD0", "SDIOCTL", ""},
+    {0x01D11068, "MMCSD0", "SDIOST0", ""},
+    {0x01D1106C, "MMCSD0", "SDIOIEN", ""},
+    {0x01D11070, "MMCSD0", "SDIOIST", ""},
+    {0x01D11074, "MMCSD0", "MMCFIFOCTL", ""},
+
   };
 #define NUM_REGISTERS (sizeof(registers) / sizeof(registers[0]))
  
